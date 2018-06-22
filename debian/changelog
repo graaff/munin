@@ -20,6 +20,8 @@ munin (2.0.37-3) UNRELEASED; urgency=low
   * add separate plugin configuration file for munin-plugins-extra
     and add configuration for "spamstats" plugin
     (Closes: #831464)
+  * plugin dhcpd3: adjust default leases and config file locations
+    (Closes: #863534)
 
  -- Lars Kruse <devel@sumpfralle.de>  Thu, 21 Jun 2018 22:05:46 +0200
 
