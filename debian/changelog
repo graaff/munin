@@ -17,6 +17,9 @@ munin (2.0.37-3) UNRELEASED; urgency=low
     /etc/munin/plugin-conf.d/munin-node to
     /etc/munin/plugin-conf.d/00-munin-node
     (Closes: #767200)
+  * add separate plugin configuration file for munin-plugins-extra
+    and add configuration for "spamstats" plugin
+    (Closes: #831464)
 
  -- Lars Kruse <devel@sumpfralle.de>  Thu, 21 Jun 2018 22:05:46 +0200
 
