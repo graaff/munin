@@ -13,6 +13,10 @@ munin (2.0.37-3) UNRELEASED; urgency=low
   * munin-node: add missing manpage for "munin-sched"
   * remove obsolete configuration file for apache2.2 in order to avoid
     confusion (Closes: #700025, #783499)
+  * rename munin-node's plugin configuration file from
+    /etc/munin/plugin-conf.d/munin-node to
+    /etc/munin/plugin-conf.d/00-munin-node
+    (Closes: #767200)
 
  -- Lars Kruse <devel@sumpfralle.de>  Thu, 21 Jun 2018 22:05:46 +0200
 
