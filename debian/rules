@@ -40,6 +40,7 @@ override_dh_auto_install:
 	rm debian/munin-doc/usr/share/man/man1/munin-node.1p
 	rm debian/munin-doc/usr/share/man/man1/munin-node-configure.1p
 	rm debian/munin-doc/usr/share/man/man1/munin-run.1p
+	rm debian/munin-doc/usr/share/man/man1/munin-sched.1p
 	rm debian/munin-doc/usr/share/man/man1/munindoc.1p
 	rmdir debian/munin-doc/usr/share/man/man1
 	# we do not expect other manpages in munin-doc (except for perl module documentation)
